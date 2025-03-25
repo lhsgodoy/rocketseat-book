@@ -1,0 +1,57 @@
+header {
+    width: 100%;
+    height: 100vh;
+    background: url(../assets/images/Image.png);
+    padding: 2rem;
+     
+        a {
+            color: white
+        }
+     
+}
+
+.container-logo div:nth-child(1) {
+    height: 2.5rem;
+
+       
+}
+
+.container-logo div:nth-child(2) {
+  height: 2.5rem;
+  width: 10rem;
+  align-content: center;
+  text-align: center;
+  background: var(--pink-dark);
+  border-radius: 10px;
+  
+
+    & :hover{
+     
+    }
+}
+.container-logo {
+   display: flex;
+   justify-content: space-between;
+   
+
+
+    
+}
+
+.join-us {
+    padding: 2rem;
+    height: 60%;
+    width: 50%;
+    margin-inline: auto;
+   
+    font: var(--title-md);
+    color: var(--text-body);
+    text-align: center;
+}
+
+span {
+    font: var(--body-md);
+    display: block;
+    padding-top: 2rem;
+}
+

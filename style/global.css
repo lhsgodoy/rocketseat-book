@@ -26,18 +26,26 @@
    --text-body: #e2e7e9;
    --text-label: #bac6c9;
 
-   --font-family: "Raleway", sans-serif;
+   --font-family: 'Raleway', sans-serif; 
 
-   --title-lg: 600 48px/auto var(--font-family);
-   --title-md: 600 40px/auto var(--font-family);
-   --title-sm: 600 32px/auto var(--font-family);
-   --title-xs: 600 16px/auto var(--font-family);
+   --title-lg: 600 48px/100% var(--font-family);
+   --title-md: 600 40px/140% var(--font-family);
+   --title-sm: 600 32px/100% var(--font-family);
+   --title-xs: 600 16px/100% var(--font-family);
    --subtitle: 400 32px/200% var(--font-family);
    --body-lg: 400 20px/140% var(--font-family);
-   --body-md: 400 16px/140% var(--font-family);
+   --body-md: 400 16px/160% var(--font-family);
    --body-sm: 400 14px/140% var(--font-family);
    --body-xs: 400 12px/140% var(--font-family);
    --button: 600 14px/auto var(--font-family);
    --link: 400 14px/auto var(--font-family);
    --tag: 600 10px/auto var(--font-family);
+}
+
+body {
+    background: var(--shape-background);
+}
+
+a {
+    text-decoration: none;
 }
