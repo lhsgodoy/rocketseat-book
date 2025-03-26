@@ -2,17 +2,21 @@ header {
     width: 100%;
     height: 100vh;
     background: url(../assets/images/Image.png);
+    opacity: ;
     padding: 2rem;
      
         a {
             color: white
-        }
+        
      
 }
 
 .container-logo div:nth-child(1) {
     height: 2.5rem;
 
+    &:hover {
+            transform: scale(1.1) ;
+    }
        
 }
 
@@ -25,15 +29,15 @@ header {
   border-radius: 10px;
   
 
-    & :hover{
-     
+    &:hover{
+            transform: scale(1.1) ;
     }
 }
 .container-logo {
    display: flex;
    justify-content: space-between;
    
-
+}
 
     
 }
@@ -54,4 +58,3 @@ span {
     display: block;
     padding-top: 2rem;
 }
-
